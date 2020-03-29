@@ -30,7 +30,9 @@ $primary: #B30000;
 $primary-invert: findColorInvert($primary);
 
 html, body{
-  background: #ECF0F3;
+  background: linear-gradient(black, rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
 }
 

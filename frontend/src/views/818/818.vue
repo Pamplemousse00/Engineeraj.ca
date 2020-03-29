@@ -17,8 +17,8 @@
             <div class="tile is-ancestor has-text-centered">
               <div class="tile is-parent">
                 <article class="tile is-child box">
-                  <p class="title">320</p>
-                  <p class="subtitle">WHP</p>
+                  <p class="title">320whp</p>
+                  <p class="subtitle">Power</p>
                 </article>
               </div>
               <div class="tile is-parent">
@@ -41,60 +41,14 @@
               </div>
             </div>
           </section>
-          <section class="info-tiles">
-            <div class="tile is-ancestor has-text-centered">
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">320</p>
-                  <p class="subtitle">WHP</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">3.9s</p>
-                  <p class="subtitle">0-60</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">818kg</p>
-                  <p class="subtitle">Weight</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">1</p>
-                  <p class="subtitle">Person</p>
-                </article>
-              </div>
-            </div>
-          </section>
-          <section class="info-tiles">
-            <div class="tile is-ancestor has-text-centered">
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">320</p>
-                  <p class="subtitle">WHP</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">3.9s</p>
-                  <p class="subtitle">0-60</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">818kg</p>
-                  <p class="subtitle">Weight</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
-                  <p class="title">1</p>
-                  <p class="subtitle">Person</p>
-                </article>
-              </div>
+          <section>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                  <div class="tile is-child box">
+                    <p class="title">Three</p>
+                    <p class="subtitle">Factory Five's 818 Kit offers power and handling fun thanks to a lightweight chassis and mid-engine design.</p>
+                  </div>
+                </div>
             </div>
           </section>
         </div>

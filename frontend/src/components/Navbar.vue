@@ -15,9 +15,6 @@
 
     <div id="navMenu" class="navbar-menu" v-bind:class="{ 'is-active': showNav }">
       <div class="navbar-start" v-on:click="condToggle">
-        <a class="navbar-item" href="https://bulma.io/">
-          Home
-        </a>
         <div class="navbar-item has-dropdown is-hoverable">
           <router-link to="818" class="navbar-link" href="https://bulma.io/documentation/overview/start/">
             Project 818
@@ -38,12 +35,46 @@
             </a>
           </div>
         </div>
-          <a class="navbar-item" href="https://bulma.io/">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <router-link to="818" class="navbar-link" href="https://bulma.io/documentation/overview/start/">
             3D Printing
-          </a>
-          <a class="navbar-item" href="https://bulma.io/">
+          </router-link>
+          <div class="navbar-dropdown is-boxed is-dark">
+            <router-link to="818" class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+              Guitar
+            </router-link>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Masks
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+              SpeedSpout
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+              Printer
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <router-link to="818" class="navbar-link" href="https://bulma.io/documentation/overview/start/">
             Software
-          </a>
+          </router-link>
+          <div class="navbar-dropdown is-boxed is-dark">
+            <router-link to="818" class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+              About
+            </router-link>
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+              Updates
+            </a>
+            <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+              Reflection
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+              Gallery
+            </a>
+          </div>
+        </div>
       </div>
 
       <div class="navbar-end">
@@ -92,14 +123,5 @@ nav.navbar {
 .navbar-item, .navbar-link {
   font-size: 14px;
   font-weight: 700;
-}
-.router-link-exact-active {
-  background-color: #000000;
-}
-#logo-container:hover, #logo-container {
-  background-color: #fff;
-}
-#logo {
-  max-height: 4rem;
 }
 </style>
