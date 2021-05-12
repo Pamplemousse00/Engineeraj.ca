@@ -9,7 +9,7 @@
   "dependencies": {
     "buefy": "^0.8.10",
     "bulma": "^0.7.5",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "chartjs-plugin-streaming": "^1.8.0",
     "chartjs-plugin-zoom": "^0.7.5",
     "core-js": "^2.6.11",
